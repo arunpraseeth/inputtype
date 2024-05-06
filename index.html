@@ -1,0 +1,14 @@
+
+
+<input type="text" id="input" onkeyup="changeb()">
+<h1 id="outputtext"></h1>
+
+<script>
+    var inputform = document.getElementById("input")
+    var output = document.getElementById("outputtext")
+    console.log(inputform.value);
+
+    function changeb(){
+        output.textContent = inputform.value
+    }
+</script>
